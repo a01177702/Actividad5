@@ -7,3 +7,4 @@ int resta = sub(5, 1);
 
 EXPECT_EQ(resta, 4);
 }
+
