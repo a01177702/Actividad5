@@ -3,18 +3,18 @@
 
 TEST(MulTest, HandlesPositiveInput)
 {
-    int producto = multiply(2, 3);
+    int producto = mul(2, 3);
     EXPECT_EQ(producto, 6);
 }
 
 TEST(MulTest, HandlesZeroInput)
 {
-    int producto = multiply(0, 5);
+    int producto = mul(0, 5);
     EXPECT_EQ(producto, 0);
 }
 
 TEST(MulTest, HandlesNegativeInput)
 {
-    int producto = multiply(-4, -2);
+    int producto = mul(-4, -2);
     EXPECT_EQ(producto, 8);
 }
